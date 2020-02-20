@@ -1,10 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Equipment.UI.Web.RegisterServices;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,8 +20,12 @@ namespace Equipment.UI.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-        }
 
+            services.RegisterServices();
+
+            services.AddMvc().AddNewtonsoftJson();
+        }
+        
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -51,6 +51,10 @@ namespace Equipment.UI.Web
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                
+                endpoints.MapControllerRoute(
+                    name: "equipmentDefault",
+                    pattern: "{controller=Equipment}/{action=List}");
             });
         }
     }

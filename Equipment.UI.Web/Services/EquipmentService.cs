@@ -1,5 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Equipment.UI.Web.IO;
+using Newtonsoft.Json;
 
 namespace Equipment.UI.Web.Services
 {
@@ -11,7 +12,8 @@ namespace Equipment.UI.Web.Services
         /// <inheritdoc/>
         public IEnumerable<dynamic> GetEquipment()
         {
-            throw new NotImplementedException();
+            var jsonedEquipment = EmbeddedFiles.GetFileContent($"{nameof(Equipment)}.{nameof(UI)}.{nameof(Web)}.MOCK_DATA.json");
+            return JsonConvert.DeserializeObject<IEnumerable<dynamic>>(jsonedEquipment);
         }
     }
 }
