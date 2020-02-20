@@ -54,7 +54,7 @@ namespace Equipment.UI.Web
                 
                 endpoints.MapControllerRoute(
                     name: "equipmentDefault",
-                    pattern: "{controller=Equipment}/{action=List}");
+                    pattern: "api/{controller=Equipment}/{action=List}");
             });
         }
     }
