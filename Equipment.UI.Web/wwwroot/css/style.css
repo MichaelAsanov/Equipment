@@ -1,0 +1,22 @@
+﻿aside.left-navbar {
+    background: #f0f0f0;
+    width: 200px;
+    float: left;
+}
+.equip-list {
+    margin-right: 240px;
+    display: block;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.selected-aside-item {
+    background: #003057;
+    color: white;
+}

@@ -3,7 +3,7 @@ using System.Linq;
 using Equipment.UI.Web.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Equipment.UI.Web.Controllers
+namespace Equipment.UI.Web.Controllers.Api
 {
     public class EquipmentController : Controller
     {
