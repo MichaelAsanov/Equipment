@@ -1,6 +1,9 @@
 ﻿app
 
-.filter("filterByRoleAndType", function(){
+/**
+ * Фильтр по ролям и типам
+  */
+    .filter("filterByRoleAndType", function(){
    return function(equipment, roles, types){
        roles = roles || [];
        types = types || [];

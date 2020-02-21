@@ -1,6 +1,8 @@
 ﻿app
-    
-    
+
+/**
+ * Контроллер (вью-модель) для оборудования
+  */
     .controller("equipmentController", function ($scope, equipmentService, $q) {
 
         /**
@@ -32,9 +34,12 @@
         //Загружаем оборудование
         $scope.LoadEquipmentAsync()
             .then(function (equipment) {
+                
+                //Из полученного массива оборудования получим уникальные значения ролей и типов (для будущего фильтра)
                 $scope.Roles = equipment.map(function (eq) { return eq.role }).distinct();
                 $scope.Types = equipment.map(function (eq) { return eq.type }).distinct();
                 
+                //Массивы заселекченных ролей и типов
                 $scope.SelectedRoles = $scope.SelectedTypes = [];
             });
         

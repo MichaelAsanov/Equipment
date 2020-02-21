@@ -1,1 +1,5 @@
-﻿var app = angular.module("equipmentApp", []);
+﻿/**
+ * Создаем модуль приложения equipmentApp
+ * @type {never}
+ */
+var app = angular.module("equipmentApp", []);
