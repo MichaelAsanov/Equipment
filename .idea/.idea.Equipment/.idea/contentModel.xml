@@ -70,6 +70,9 @@
               <e p="equipmentApp.js" t="Include" />
               <e p="equipmentController.js" t="Include" />
               <e p="equipmentService.js" t="Include" />
+              <e p="filters" t="Include">
+                <e p="filterByRoleAndType.js" t="Include" />
+              </e>
             </e>
             <e p="LINQ_JS_MIN.js" t="Include" />
             <e p="site.js" t="Include" />

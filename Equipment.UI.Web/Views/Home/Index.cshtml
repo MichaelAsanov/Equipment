@@ -9,6 +9,7 @@
 <script src="js/angularjs/angular.min.js" ></script>
 
 <script src="js/equipmentApp/equipmentApp.js" ></script>
+<script src="js/equipmentApp/filters/filterByRoleAndType.js" ></script>
 <script src="js/equipmentApp/equipmentService.js" ></script>
 <script src="js/equipmentApp/equipmentController.js" ></script>
 
@@ -19,6 +20,7 @@
     </div>
     
     <input type="text" placeholder="Поиск" ng-model="text"/>
+    Найдено: {{(Equipment | filter:{title:text} | filterByRoleAndType:SelectedRoles:SelectedTypes).length}}
     Всего устройств: {{Equipment.length}}
 
     <aside class="left-navbar">
@@ -38,7 +40,7 @@
     </aside>
     <div class="equip-list">
         <ul>
-            <li ng-repeat="equip in Equipment | filter:{title:text}">
+            <li ng-repeat="equip in Equipment | filter:{title:text} | filterByRoleAndType:SelectedRoles:SelectedTypes">
                 <h2>{{equip.title}}</h2>
                 <div>Серийный номер</div>
                 <div>{{equip.serial}}</div>
