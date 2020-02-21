@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Equipment.UI.Web.IO;
 using Newtonsoft.Json;
 
@@ -10,9 +11,9 @@ namespace Equipment.UI.Web.Services
     public class EquipmentService : IEquipmentService
     {
         /// <inheritdoc/>
-        public IEnumerable<dynamic> GetEquipment()
+        public async Task<IEnumerable<dynamic>> GetEquipmentAsync()
         {
-            var jsonedEquipment = EmbeddedFiles.GetFileContent($"{nameof(Equipment)}.{nameof(UI)}.{nameof(Web)}.MOCK_DATA.json");
+            var jsonedEquipment = await EmbeddedFiles.GetFileContentAsync($"{nameof(Equipment)}.{nameof(UI)}.{nameof(Web)}.MOCK_DATA.json");
             return JsonConvert.DeserializeObject<IEnumerable<dynamic>>(jsonedEquipment);
         }
     }

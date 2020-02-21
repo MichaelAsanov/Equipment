@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Equipment.UI.Web.Services
 {
@@ -11,6 +12,6 @@ namespace Equipment.UI.Web.Services
         /// Получение списка оборудования
         /// </summary>
         /// <returns></returns>
-        IEnumerable<dynamic> GetEquipment();
+        Task<IEnumerable<dynamic>> GetEquipmentAsync();
     }
 }

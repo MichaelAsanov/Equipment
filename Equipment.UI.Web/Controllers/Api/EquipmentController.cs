@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Threading.Tasks;
 using Equipment.UI.Web.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,9 +26,9 @@ namespace Equipment.UI.Web.Controllers.Api
         /// Возвращает список оборудования
         /// </summary>
         /// <returns></returns>
-        public IActionResult List()
+        public async Task<IActionResult> List()
         {
-            return Json(_equipmentService.GetEquipment().ToList());
+            return Json((await _equipmentService.GetEquipmentAsync()).ToList());
         }
     }
 }

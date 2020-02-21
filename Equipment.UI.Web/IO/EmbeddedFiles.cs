@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Reflection;
+using System.Threading.Tasks;
 
 namespace Equipment.UI.Web.IO
 {
@@ -22,9 +23,9 @@ namespace Equipment.UI.Web.IO
         /// </summary>
         /// <param name="stream"></param>
         /// <returns></returns>
-        public static string GetString(this Stream stream)
+        public static Task<string> GetStringAsync(this Stream stream)
         {
-            return new StreamReader(stream).ReadToEnd();
+            return new StreamReader(stream).ReadToEndAsync();
         }
 
         /// <summary>
@@ -32,9 +33,9 @@ namespace Equipment.UI.Web.IO
         /// </summary>
         /// <param name="fileName"></param>
         /// <returns></returns>
-        public static string GetFileContent(string fileName)
+        public static Task<string> GetFileContentAsync(string fileName)
         {
-            return GetStreamFromEmbeddedFile(fileName).GetString();
+            return GetStreamFromEmbeddedFile(fileName).GetStringAsync();
         }
     }
 }
