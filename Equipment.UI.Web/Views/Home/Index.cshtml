@@ -14,9 +14,13 @@
 
 
 <div class="text-center" ng-app="equipmentApp" ng-controller="equipmentController">
+    <div ng-if="EquipmentLoadingErrors">
+        Произошла ошибка при загрузке оборудования
+    </div>
+    
     <input type="text" placeholder="Поиск" ng-model="text"/>
     Всего устройств: {{Equipment.length}}
-    
+
     <aside class="left-navbar">
         <h1>Роль</h1>
         <ul>
