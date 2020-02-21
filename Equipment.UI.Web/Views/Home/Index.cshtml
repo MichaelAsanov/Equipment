@@ -14,14 +14,16 @@
 
 
 <div class="text-center" ng-app="equipmentApp" ng-controller="equipmentController">
+    <input type="text" placeholder="Поиск" ng-model="text"/>
+    
     <aside class="left-navbar">
         <h1>Роль</h1>
         <ul>
-            <li ng-repeat="role in Roles" ng-click="AddOrRemoveItem(role, SelectedRoles)"  class="label" ng-class="{'selected-aside-item': SelectedRoles.contains(role)}">
+            <li ng-repeat="role in Roles" ng-click="AddOrRemoveItem(role, SelectedRoles)" class="label" ng-class="{'selected-aside-item': SelectedRoles.contains(role)}">
                 {{role}}
             </li>
         </ul>
-        
+
         <h1>Тип</h1>
         <ul>
             <li ng-repeat="type in Types" ng-click="AddOrRemoveItem(type, SelectedTypes)" class="label" ng-class="{'selected-aside-item': SelectedTypes.contains(type)}">
@@ -31,20 +33,20 @@
     </aside>
     <div class="equip-list">
         <ul>
-            <li ng-repeat="equip in Equipment">
+            <li ng-repeat="equip in Equipment | filter:{title:text}">
                 <h2>{{equip.title}}</h2>
                 <div>Серийный номер</div>
                 <div>{{equip.serial}}</div>
-                
+
                 <div>Код ЕНС</div>
                 <div>{{equip.code_ehd}}</div>
-                
+
                 <div>Код CA</div>
                 <div>{{equip.code_ca}}</div>
-                
+
                 <div>Инвентарный номер</div>
                 <div>{{equip.inventory_num}}</div>
-                
+
                 <div>Последняя активность</div>
                 <div>{{equip.last_activity}}</div>
             </li>
