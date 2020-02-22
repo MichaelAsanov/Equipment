@@ -85,6 +85,8 @@
             <div class="row">
                 <div class="col-lg-4" ng-repeat="equip in Equipment | filter:{title:text} | filterByRoleAndType:SelectedRoles:SelectedTypes">
                     <div class="ibox float-e-margins">
+                        <span class="badge badge-danger" ng-if="equip.i_owner">Я владелец</span>
+                        <span class="badge badge-primary" ng-if="equip.i_user">Я пользователь</span>
                         <div class="ibox-title">
                             <h5>{{equip.title}}</h5>
                         </div>
