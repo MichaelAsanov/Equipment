@@ -16,7 +16,7 @@ namespace Equipment.UI.Web.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View("Equipment");
         }
 
         public IActionResult Privacy()

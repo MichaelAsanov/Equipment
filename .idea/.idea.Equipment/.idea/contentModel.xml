@@ -46,6 +46,8 @@
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Home" t="Include">
+            <e p="Equipment.cshtml" t="Include" />
+            <e p="Equipment.cshtml.cs" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
           </e>
@@ -59,8 +61,26 @@
           <e p="css" t="Include">
             <e p="site.css" t="Include" />
             <e p="style.css" t="Include" />
+            <e p="wrapbootstrap" t="Include">
+              <e p="animate.css" t="Include" />
+              <e p="bootstrap.min.css" t="Include" />
+              <e p="font-awesome" t="Include">
+                <e p="css" t="Include">
+                  <e p="font-awesome.css" t="Include" />
+                </e>
+              </e>
+              <e p="plugins" t="Include">
+                <e p="morris" t="Include">
+                  <e p="morris-0.4.3.min.css" t="Include" />
+                </e>
+              </e>
+              <e p="style.css" t="Include" />
+            </e>
           </e>
           <e p="favicon.ico" t="Include" />
+          <e p="html" t="Include">
+            <e p="equipment.html" t="Include" />
+          </e>
           <e p="js" t="Include">
             <e p="angularjs" t="Include">
               <e p="angular.min.js" t="Include" />
@@ -76,6 +96,725 @@
             </e>
             <e p="LINQ_JS_MIN.js" t="Include" />
             <e p="site.js" t="Include" />
+            <e p="wrapbootstrap" t="Include">
+              <e p="bootstrap.js" t="Include" />
+              <e p="bootstrap.min.js" t="Include" />
+              <e p="demo" t="Include">
+                <e p="chartjs-demo.js" t="Include" />
+                <e p="dashboard-demo.js" t="Include" />
+                <e p="flot-demo.js" t="Include" />
+                <e p="flot-demo2.js" t="Include" />
+                <e p="morris-demo.js" t="Include" />
+                <e p="peity-demo.js" t="Include" />
+                <e p="rickshaw-demo.js" t="Include" />
+                <e p="sparkline-demo.js" t="Include" />
+              </e>
+              <e p="inspinia.js" t="Include" />
+              <e p="jquery-2.1.1.js" t="Include" />
+              <e p="jquery-ui-1.10.4.min.js" t="Include" />
+              <e p="jquery-ui.custom.min.js" t="Include" />
+              <e p="plugins" t="Include">
+                <e p="blueimp" t="Include">
+                  <e p="jquery.blueimp-gallery.min.js" t="Include" />
+                </e>
+                <e p="chartist" t="Include">
+                  <e p="._chartist.min.js" t="Include" />
+                  <e p="._chartist.min.js.map" t="Include" />
+                  <e p="chartist.min.js" t="Include" />
+                  <e p="chartist.min.js.map" t="Include" />
+                </e>
+                <e p="chartJs" t="Include">
+                  <e p="Chart.min.js" t="Include" />
+                </e>
+                <e p="chosen" t="Include">
+                  <e p="chosen.jquery.js" t="Include" />
+                </e>
+                <e p="clockpicker" t="Include">
+                  <e p="._clockpicker.js" t="Include" />
+                  <e p="clockpicker.js" t="Include" />
+                </e>
+                <e p="codemirror" t="Include">
+                  <e p="codemirror.js" t="Include" />
+                  <e p="mode" t="Include">
+                    <e p="apl" t="Include">
+                      <e p="apl.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="asterisk" t="Include">
+                      <e p="asterisk.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="clike" t="Include">
+                      <e p="clike.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                      <e p="scala.html" t="Include" />
+                    </e>
+                    <e p="clojure" t="Include">
+                      <e p="clojure.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="cobol" t="Include">
+                      <e p="cobol.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="coffeescript" t="Include">
+                      <e p="coffeescript.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="commonlisp" t="Include">
+                      <e p="commonlisp.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="css" t="Include">
+                      <e p="css.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                      <e p="less.html" t="Include" />
+                      <e p="less_test.js" t="Include" />
+                      <e p="scss.html" t="Include" />
+                      <e p="scss_test.js" t="Include" />
+                      <e p="test.js" t="Include" />
+                    </e>
+                    <e p="cypher" t="Include">
+                      <e p="cypher.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="d" t="Include">
+                      <e p="d.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="diff" t="Include">
+                      <e p="diff.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="django" t="Include">
+                      <e p="django.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="dtd" t="Include">
+                      <e p="dtd.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="dylan" t="Include">
+                      <e p="dylan.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="ecl" t="Include">
+                      <e p="ecl.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="eiffel" t="Include">
+                      <e p="eiffel.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="erlang" t="Include">
+                      <e p="erlang.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="fortran" t="Include">
+                      <e p="fortran.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="gas" t="Include">
+                      <e p="gas.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="gfm" t="Include">
+                      <e p="gfm.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                      <e p="test.js" t="Include" />
+                    </e>
+                    <e p="gherkin" t="Include">
+                      <e p="gherkin.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="go" t="Include">
+                      <e p="go.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="groovy" t="Include">
+                      <e p="groovy.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="haml" t="Include">
+                      <e p="haml.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                      <e p="test.js" t="Include" />
+                    </e>
+                    <e p="haskell" t="Include">
+                      <e p="haskell.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="haxe" t="Include">
+                      <e p="haxe.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="htmlembedded" t="Include">
+                      <e p="htmlembedded.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="htmlmixed" t="Include">
+                      <e p="htmlmixed.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="http" t="Include">
+                      <e p="http.js" t="Include" />
+                      <e p="index.html" t="Include" />
+                    </e>
+                    <e p="index.html" t="Include" />
+                    <e p="jade" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="jade.js" t="Include" />
+                    </e>
+                    <e p="javascript" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="javascript.js" t="Include" />
+                      <e p="json-ld.html" t="Include" />
+                      <e p="test.js" t="Include" />
+                      <e p="typescript.html" t="Include" />
+                    </e>
+                    <e p="jinja2" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="jinja2.js" t="Include" />
+                    </e>
+                    <e p="julia" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="julia.js" t="Include" />
+                    </e>
+                    <e p="kotlin" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="kotlin.js" t="Include" />
+                    </e>
+                    <e p="livescript" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="livescript.js" t="Include" />
+                    </e>
+                    <e p="lua" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="lua.js" t="Include" />
+                    </e>
+                    <e p="markdown" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="markdown.js" t="Include" />
+                      <e p="test.js" t="Include" />
+                    </e>
+                    <e p="meta.js" t="Include" />
+                    <e p="mirc" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="mirc.js" t="Include" />
+                    </e>
+                    <e p="mllike" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="mllike.js" t="Include" />
+                    </e>
+                    <e p="modelica" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="modelica.js" t="Include" />
+                    </e>
+                    <e p="nginx" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="nginx.js" t="Include" />
+                    </e>
+                    <e p="ntriples" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="ntriples.js" t="Include" />
+                    </e>
+                    <e p="octave" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="octave.js" t="Include" />
+                    </e>
+                    <e p="pascal" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="pascal.js" t="Include" />
+                    </e>
+                    <e p="pegjs" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="pegjs.js" t="Include" />
+                    </e>
+                    <e p="perl" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="perl.js" t="Include" />
+                    </e>
+                    <e p="php" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="php.js" t="Include" />
+                      <e p="test.js" t="Include" />
+                    </e>
+                    <e p="pig" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="pig.js" t="Include" />
+                    </e>
+                    <e p="Properties" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="properties.js" t="Include" />
+                    </e>
+                    <e p="puppet" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="puppet.js" t="Include" />
+                    </e>
+                    <e p="python" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="python.js" t="Include" />
+                    </e>
+                    <e p="q" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="q.js" t="Include" />
+                    </e>
+                    <e p="r" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="r.js" t="Include" />
+                    </e>
+                    <e p="rpm" t="Include">
+                      <e p="changes" t="Include">
+                        <e p="index.html" t="Include" />
+                      </e>
+                      <e p="index.html" t="Include" />
+                      <e p="rpm.js" t="Include" />
+                    </e>
+                    <e p="rst" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="rst.js" t="Include" />
+                    </e>
+                    <e p="ruby" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="ruby.js" t="Include" />
+                      <e p="test.js" t="Include" />
+                    </e>
+                    <e p="rust" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="rust.js" t="Include" />
+                    </e>
+                    <e p="sass" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="sass.js" t="Include" />
+                    </e>
+                    <e p="scheme" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="scheme.js" t="Include" />
+                    </e>
+                    <e p="shell" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="shell.js" t="Include" />
+                      <e p="test.js" t="Include" />
+                    </e>
+                    <e p="sieve" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="sieve.js" t="Include" />
+                    </e>
+                    <e p="slim" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="slim.js" t="Include" />
+                      <e p="test.js" t="Include" />
+                    </e>
+                    <e p="smalltalk" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="smalltalk.js" t="Include" />
+                    </e>
+                    <e p="smarty" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="smarty.js" t="Include" />
+                    </e>
+                    <e p="smartymixed" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="smartymixed.js" t="Include" />
+                    </e>
+                    <e p="solr" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="solr.js" t="Include" />
+                    </e>
+                    <e p="sparql" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="sparql.js" t="Include" />
+                    </e>
+                    <e p="sql" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="sql.js" t="Include" />
+                    </e>
+                    <e p="stex" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="stex.js" t="Include" />
+                      <e p="test.js" t="Include" />
+                    </e>
+                    <e p="tcl" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="tcl.js" t="Include" />
+                    </e>
+                    <e p="textile" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="test.js" t="Include" />
+                      <e p="textile.js" t="Include" />
+                    </e>
+                    <e p="tiddlywiki" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="tiddlywiki.css" t="Include" />
+                      <e p="tiddlywiki.js" t="Include" />
+                    </e>
+                    <e p="tiki" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="tiki.css" t="Include" />
+                      <e p="tiki.js" t="Include" />
+                    </e>
+                    <e p="toml" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="toml.js" t="Include" />
+                    </e>
+                    <e p="tornado" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="tornado.js" t="Include" />
+                    </e>
+                    <e p="turtle" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="turtle.js" t="Include" />
+                    </e>
+                    <e p="vb" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="vb.js" t="Include" />
+                    </e>
+                    <e p="vbscript" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="vbscript.js" t="Include" />
+                    </e>
+                    <e p="velocity" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="velocity.js" t="Include" />
+                    </e>
+                    <e p="verilog" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="test.js" t="Include" />
+                      <e p="verilog.js" t="Include" />
+                    </e>
+                    <e p="xml" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="test.js" t="Include" />
+                      <e p="xml.js" t="Include" />
+                    </e>
+                    <e p="xquery" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="test.js" t="Include" />
+                      <e p="xquery.js" t="Include" />
+                    </e>
+                    <e p="yaml" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="yaml.js" t="Include" />
+                    </e>
+                    <e p="z80" t="Include">
+                      <e p="index.html" t="Include" />
+                      <e p="z80.js" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="colorpicker" t="Include">
+                  <e p="bootstrap-colorpicker.min.js" t="Include" />
+                </e>
+                <e p="cropper" t="Include">
+                  <e p="cropper.min.js" t="Include" />
+                </e>
+                <e p="datapicker" t="Include">
+                  <e p="bootstrap-datepicker.js" t="Include" />
+                </e>
+                <e p="dataTables" t="Include">
+                  <e p="dataTables.bootstrap.js" t="Include" />
+                  <e p="dataTables.responsive.js" t="Include" />
+                  <e p="dataTables.tableTools.min.js" t="Include" />
+                  <e p="jquery.dataTables.js" t="Include" />
+                  <e p="swf" t="Include">
+                    <e p="copy_csv_xls.swf" t="Include" />
+                    <e p="copy_csv_xls_pdf.swf" t="Include" />
+                  </e>
+                </e>
+                <e p="daterangepicker" t="Include">
+                  <e p="._daterangepicker.js" t="Include" />
+                  <e p="daterangepicker.js" t="Include" />
+                </e>
+                <e p="diff_match_patch" t="Include">
+                  <e p="COPYING" t="Include" />
+                  <e p="javascript" t="Include">
+                    <e p="diff_match_patch.js" t="Include" />
+                  </e>
+                  <e p="README.txt" t="Include" />
+                </e>
+                <e p="dropzone" t="Include">
+                  <e p="dropzone.js" t="Include" />
+                </e>
+                <e p="easypiechart" t="Include">
+                  <e p="easypiechart.js" t="Include" />
+                  <e p="jquery.easypiechart.js" t="Include" />
+                </e>
+                <e p="flot" t="Include">
+                  <e p="curvedLines.js" t="Include" />
+                  <e p="excanvas.min.js" t="Include" />
+                  <e p="jquery.flot.js" t="Include" />
+                  <e p="jquery.flot.pie.js" t="Include" />
+                  <e p="jquery.flot.resize.js" t="Include" />
+                  <e p="jquery.flot.spline.js" t="Include" />
+                  <e p="jquery.flot.symbol.js" t="Include" />
+                  <e p="jquery.flot.time.js" t="Include" />
+                  <e p="jquery.flot.tooltip.min.js" t="Include" />
+                </e>
+                <e p="footable" t="Include">
+                  <e p="._footable.all.min.js" t="Include" />
+                  <e p="footable.all.min.js" t="Include" />
+                </e>
+                <e p="fullcalendar" t="Include">
+                  <e p="._moment.min.js" t="Include" />
+                  <e p="fullcalendar.min.js" t="Include" />
+                  <e p="moment.min.js" t="Include" />
+                </e>
+                <e p="gritter" t="Include">
+                  <e p="images" t="Include">
+                    <e p="gritter-light.png" t="Include" />
+                    <e p="gritter-long.png" t="Include" />
+                    <e p="gritter.png" t="Include" />
+                    <e p="ie-spacer.gif" t="Include" />
+                  </e>
+                  <e p="jquery.gritter.css" t="Include" />
+                  <e p="jquery.gritter.min.js" t="Include" />
+                </e>
+                <e p="iCheck" t="Include">
+                  <e p="icheck.min.js" t="Include" />
+                </e>
+                <e p="idle-timer" t="Include">
+                  <e p="idle-timer.min.js" t="Include" />
+                </e>
+                <e p="ionRangeSlider" t="Include">
+                  <e p="ion.rangeSlider.min.js" t="Include" />
+                </e>
+                <e p="jasny" t="Include">
+                  <e p="jasny-bootstrap.min.js" t="Include" />
+                </e>
+                <e p="jeditable" t="Include">
+                  <e p="jquery.jeditable.js" t="Include" />
+                </e>
+                <e p="jqGrid" t="Include">
+                  <e p="i18n" t="Include">
+                    <e p="grid.locale-ar.js" t="Include" />
+                    <e p="grid.locale-bg.js" t="Include" />
+                    <e p="grid.locale-bg1251.js" t="Include" />
+                    <e p="grid.locale-cat.js" t="Include" />
+                    <e p="grid.locale-cn.js" t="Include" />
+                    <e p="grid.locale-cs.js" t="Include" />
+                    <e p="grid.locale-da.js" t="Include" />
+                    <e p="grid.locale-de.js" t="Include" />
+                    <e p="grid.locale-dk.js" t="Include" />
+                    <e p="grid.locale-el.js" t="Include" />
+                    <e p="grid.locale-en.js" t="Include" />
+                    <e p="grid.locale-es.js" t="Include" />
+                    <e p="grid.locale-fa.js" t="Include" />
+                    <e p="grid.locale-fi.js" t="Include" />
+                    <e p="grid.locale-fr.js" t="Include" />
+                    <e p="grid.locale-gl.js" t="Include" />
+                    <e p="grid.locale-he.js" t="Include" />
+                    <e p="grid.locale-hr.js" t="Include" />
+                    <e p="grid.locale-hr1250.js" t="Include" />
+                    <e p="grid.locale-hu.js" t="Include" />
+                    <e p="grid.locale-id.js" t="Include" />
+                    <e p="grid.locale-is.js" t="Include" />
+                    <e p="grid.locale-it.js" t="Include" />
+                    <e p="grid.locale-ja.js" t="Include" />
+                    <e p="grid.locale-kr.js" t="Include" />
+                    <e p="grid.locale-lt.js" t="Include" />
+                    <e p="grid.locale-mne.js" t="Include" />
+                    <e p="grid.locale-nl.js" t="Include" />
+                    <e p="grid.locale-no.js" t="Include" />
+                    <e p="grid.locale-pl.js" t="Include" />
+                    <e p="grid.locale-pt-br.js" t="Include" />
+                    <e p="grid.locale-pt.js" t="Include" />
+                    <e p="grid.locale-ro.js" t="Include" />
+                    <e p="grid.locale-ru.js" t="Include" />
+                    <e p="grid.locale-sk.js" t="Include" />
+                    <e p="grid.locale-sr-latin.js" t="Include" />
+                    <e p="grid.locale-sr.js" t="Include" />
+                    <e p="grid.locale-sv.js" t="Include" />
+                    <e p="grid.locale-th.js" t="Include" />
+                    <e p="grid.locale-tr.js" t="Include" />
+                    <e p="grid.locale-tw.js" t="Include" />
+                    <e p="grid.locale-ua.js" t="Include" />
+                    <e p="grid.locale-vi.js" t="Include" />
+                  </e>
+                  <e p="jquery.jqGrid.min.js" t="Include" />
+                </e>
+                <e p="jquery-ui" t="Include">
+                  <e p="i18n" t="Include">
+                    <e p="jquery-ui-i18n.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-af.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-ar-DZ.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-ar.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-az.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-be.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-bg.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-bs.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-ca.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-cs.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-cy-GB.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-da.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-de.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-el.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-en-AU.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-en-GB.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-en-NZ.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-eo.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-es.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-et.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-eu.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-fa.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-fi.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-fo.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-fr-CA.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-fr-CH.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-fr.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-gl.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-he.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-hi.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-hr.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-hu.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-hy.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-id.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-is.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-it.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-ja.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-ka.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-kk.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-km.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-ko.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-ky.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-lb.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-lt.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-lv.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-mk.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-ml.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-ms.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-nb.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-nl-BE.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-nl.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-nn.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-no.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-pl.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-pt-BR.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-pt.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-rm.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-ro.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-ru.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-sk.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-sl.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-sq.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-sr-SR.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-sr.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-sv.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-ta.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-th.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-tj.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-tr.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-uk.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-vi.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-zh-CN.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-zh-HK.min.js" t="Include" />
+                    <e p="jquery.ui.datepicker-zh-TW.min.js" t="Include" />
+                  </e>
+                  <e p="images" t="Include">
+                    <e p="animated-overlay.gif" t="Include" />
+                    <e p="ui-bg_flat_0_aaaaaa_40x100.png" t="Include" />
+                    <e p="ui-bg_flat_75_ffffff_40x100.png" t="Include" />
+                    <e p="ui-bg_glass_55_fbf9ee_1x400.png" t="Include" />
+                    <e p="ui-bg_glass_65_ffffff_1x400.png" t="Include" />
+                    <e p="ui-bg_glass_75_dadada_1x400.png" t="Include" />
+                    <e p="ui-bg_glass_75_e6e6e6_1x400.png" t="Include" />
+                    <e p="ui-bg_glass_95_fef1ec_1x400.png" t="Include" />
+                    <e p="ui-bg_highlight-soft_75_cccccc_1x100.png" t="Include" />
+                    <e p="ui-icons_222222_256x240.png" t="Include" />
+                    <e p="ui-icons_2e83ff_256x240.png" t="Include" />
+                    <e p="ui-icons_454545_256x240.png" t="Include" />
+                    <e p="ui-icons_888888_256x240.png" t="Include" />
+                    <e p="ui-icons_cd0a0a_256x240.png" t="Include" />
+                  </e>
+                  <e p="jquery-ui.css" t="Include" />
+                  <e p="jquery-ui.js" t="Include" />
+                  <e p="jquery-ui.min.css" t="Include" />
+                  <e p="jquery-ui.min.js" t="Include" />
+                </e>
+                <e p="jsKnob" t="Include">
+                  <e p="jquery.knob.js" t="Include" />
+                </e>
+                <e p="jsTree" t="Include">
+                  <e p="jstree.min.js" t="Include" />
+                </e>
+                <e p="justified-gallery" t="Include">
+                  <e p="jquery.justifiedgallery.css" t="Include" />
+                  <e p="jquery.justifiedgallery.js" t="Include" />
+                  <e p="jquery.justifiedgallery.min.css" t="Include" />
+                  <e p="jquery.justifiedgallery.min.js" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                  <e p="README.md" t="Include" />
+                </e>
+                <e p="jvectormap" t="Include">
+                  <e p="._jquery-jvectormap-2.0.2.min.js" t="Include" />
+                  <e p="jquery-jvectormap-2.0.2.css" t="Include" />
+                  <e p="jquery-jvectormap-2.0.2.min.js" t="Include" />
+                  <e p="jquery-jvectormap-world-mill-en.js" t="Include" />
+                </e>
+                <e p="metisMenu" t="Include">
+                  <e p="jquery.metisMenu.js" t="Include" />
+                </e>
+                <e p="morris" t="Include">
+                  <e p="morris.js" t="Include" />
+                  <e p="raphael-2.1.0.min.js" t="Include" />
+                </e>
+                <e p="nestable" t="Include">
+                  <e p="jquery.nestable.js" t="Include" />
+                </e>
+                <e p="nouslider" t="Include">
+                  <e p="jquery.nouislider.min.js" t="Include" />
+                </e>
+                <e p="pace" t="Include">
+                  <e p="pace.min.js" t="Include" />
+                </e>
+                <e p="peity" t="Include">
+                  <e p="jquery.peity.min.js" t="Include" />
+                </e>
+                <e p="preetyTextDiff" t="Include">
+                  <e p="jquery.pretty-text-diff.min.js" t="Include" />
+                </e>
+                <e p="rickshaw" t="Include">
+                  <e p="rickshaw.min.js" t="Include" />
+                  <e p="vendor" t="Include">
+                    <e p="d3.v3.js" t="Include" />
+                  </e>
+                </e>
+                <e p="slimscroll" t="Include">
+                  <e p="jquery.slimscroll.js" t="Include" />
+                  <e p="jquery.slimscroll.min.js" t="Include" />
+                </e>
+                <e p="sparkline" t="Include">
+                  <e p="jquery.sparkline.min.js" t="Include" />
+                </e>
+                <e p="staps" t="Include">
+                  <e p="jquery.steps.min.js" t="Include" />
+                </e>
+                <e p="summernote" t="Include">
+                  <e p="summernote.min.js" t="Include" />
+                </e>
+                <e p="sweetalert" t="Include">
+                  <e p="._sweetalert.min.js" t="Include" />
+                  <e p="sweetalert.min.js" t="Include" />
+                </e>
+                <e p="switchery" t="Include">
+                  <e p="switchery.js" t="Include" />
+                </e>
+                <e p="tinycon" t="Include">
+                  <e p="tinycon.min.js" t="Include" />
+                </e>
+                <e p="toastr" t="Include">
+                  <e p="toastr.min.js" t="Include" />
+                </e>
+                <e p="validate" t="Include">
+                  <e p="jquery.validate.min.js" t="Include" />
+                </e>
+                <e p="video" t="Include">
+                  <e p="responsible-video.js" t="Include" />
+                </e>
+                <e p="wow" t="Include">
+                  <e p="wow.min.js" t="Include" />
+                </e>
+              </e>
+            </e>
           </e>
           <e p="lib" t="Include">
             <e p="bootstrap" t="Include">
