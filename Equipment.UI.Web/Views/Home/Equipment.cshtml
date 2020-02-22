@@ -34,7 +34,7 @@
 </head>
 
 <body>
-<div id="wrapper" ng-app="equipmentApp" ng-controller="equipmentController">
+<div id="wrapper" ng-app="equipmentApp" ng-controller="equipmentController" ng-cloak>
     <nav class="navbar-default navbar-static-side" role="navigation">
         <div class="sidebar-collapse">
             <ul class="nav metismenu" id="side-menu">
@@ -83,7 +83,9 @@
 
 
         <div class="wrapper wrapper-content">
-           
+           <div class="alert alert-danger" ng-if="EquipmentLoadingErrors">
+               Произошла ошибка при загрузке оборудования
+           </div>
             <div class="row">
                 <div class="col-lg-4" ng-repeat="equip in Equipment | filter:{title:text} | filterByRoleAndType:SelectedRoles:SelectedTypes">
                     <div class="ibox float-e-margins">
